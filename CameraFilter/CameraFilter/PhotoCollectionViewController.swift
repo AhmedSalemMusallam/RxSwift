@@ -58,7 +58,7 @@ class PhotoCollectionViewController: UICollectionViewController {
             
             guard let info = info else { return }
             
-            let isDegadedImage = info["PHImageResultDegardedKey"] as! Bool
+            let isDegadedImage = info["PHImageResultIsDegradedKey"] as! Bool
             
             if !isDegadedImage
             {
