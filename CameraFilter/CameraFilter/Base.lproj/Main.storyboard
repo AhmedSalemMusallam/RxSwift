@@ -23,6 +23,9 @@
                                 <rect key="frame" x="0.0" y="680" width="393" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Apply Filter"/>
+                                <connections>
+                                    <action selector="applyFilterButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="hIa-Ma-ljZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,6 +49,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="applyFilterButton" destination="aAU-jx-tt3" id="oHT-cm-Crd"/>
                         <outlet property="photoImageView" destination="JXM-hS-d9C" id="Tib-I4-gwF"/>
                     </connections>
                 </viewController>
